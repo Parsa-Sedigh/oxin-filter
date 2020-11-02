@@ -1,0 +1,119 @@
+<!--
+<div class="filter">
+    <ul class="filter__list">
+        <h2 class="filter__heading">فیلتر ها</h2>
+
+        <li class="filter__item">
+            <input type="checkbox" id="capacity" class="filter__input">
+            <label for="capacity" class="filter__label">دوره های دارای ظرفیت</label>
+        </li>
+
+        <li class="filter__item">
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+            <h3 class="filter__accordion-heading">دوره حضوری گروهی</h3>
+
+            <div class="filter__accordion">
+                <div class="filter__accordion-item">
+                    <input type="checkbox" class="filter__input">
+                    <label class="filter__label">مکالمه محض مبتدی</label>
+                </div>
+
+                <div class="filter__accordion-item">
+                    <input type="checkbox" class="filter__input">
+                    <label class="filter__label">مکالمه محض مبتدی</label>
+                </div>
+            </div>
+
+        </li>
+
+        <li class="filter__item">
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-minus"></i>
+            <h3 class="filter__accordion-heading">2دوره های حضوری گروهی</h3>
+
+            <div class="filter__accordion">
+                <div class="filter__accordion-item">
+                    <input type="checkbox" class="filter__input">
+                    <label class="filter__label">مکالمه محض مبتدی</label>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script defer>
+-->
+/*
+const accordions = document.querySelectorAll('.filter__accordion-heading');
+const plusIcons = document.querySelectorAll('.fa-plus');
+const minusIcons = document.querySelectorAll('.fa-minus');
+const available = document.querySelector('#capacity');
+*/
+
+/*
+setTimeout(() => {
+	const class20 = document.querySelectorAll('.price-value');
+
+for (let i = 0; i < class20.length; i++) {
+  let capacity = class20[i].nextElementSibling.nextElementSibling.nextElementSibling;
+  if (capacity.innerText === 'ظرفیت کلاس: ۲۰') {
+    class20[i].closest('div.fusion_builder_column').style.display = 'none';
+  }
+}
+}, 1000);
+*/
+/*
+available.addEventListener('click', () => {
+   	const class0 = document.querySelectorAll('.price-value');
+
+  if(document.querySelector('#capacity:checked')) {
+
+setTimeout(() => {
+	const class20 = document.querySelectorAll('.price-value');
+
+for (let i = 0; i < class20.length; i++) {
+  let capacity = class20[i].nextElementSibling.nextElementSibling.nextElementSibling;
+  if (capacity.innerText === 'ظرفیت کلاس: ۲۰') {
+    class20[i].closest('div.fusion_builder_column').style.display = 'inline-block';
+  }
+}
+}, 1000);
+
+  } else {
+setTimeout(() => {
+	const class20 = document.querySelectorAll('.price-value');
+
+for (let i = 0; i < class20.length; i++) {
+  let capacity = class20[i].nextElementSibling.nextElementSibling.nextElementSibling;
+  if (capacity.innerText === 'ظرفیت کلاس: ۲۰') {
+    class20[i].closest('div.fusion_builder_column').style.display = 'none';
+  }
+}
+}, 1000);
+}
+});
+
+
+
+for (let i = 0; i < accordions.length; i++) {
+    minusIcons[i].style.display = 'none';
+
+    accordions[i].addEventListener('click', () => {
+        accordions[i].classList.toggle('open');
+        const accItems = accordions[i].nextElementSibling;
+        if (accItems.style.maxHeight) {
+            accItems.style.maxHeight = null;
+            minusIcons[i].style.display = 'none';
+            plusIcons[i].style.display = 'inline-block';
+        } else {
+            accItems.style.maxHeight = accItems.scrollHeight + 'px';
+            plusIcons[i].style.display = 'none';
+            minusIcons[i].style.display = 'inline-block';
+        }
+    });
+}
+*/
+<!--
+</script>
+-->
